@@ -33,7 +33,7 @@ exports.handler = async (event) => {
 
     return {
       statusCode: 200,
-      body: JSON.stringify({ message: "Event received successfully!" }),
+      body: JSON.stringify({ message: "Listening!" }),
     };
   } catch (error) {
     console.error("Error processing event:", error);
